@@ -58,7 +58,7 @@ def scrape(products):
 
 def create_csv(result_list):
     df = pd.DataFrame(data=result_list)
-    df.to_csv("test.csv")
+    df.to_csv("wool.csv")
 
 
 def main():
